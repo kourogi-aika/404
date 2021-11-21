@@ -1,0 +1,357 @@
+/*-------------------------------
+               BASE
+--------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:"Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+  font-size: 16px;
+}
+
+
+
+/*-------------------------------
+         LAYOUT MOBILE
+--------------------------------*/
+
+#container {
+  margin: auto;
+  max-width: 960px;
+}
+
+header {
+  position: relative;
+  color: #FFFFFFF;
+}
+
+header h1 {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 1.2rem;
+}
+
+.logo{
+  width: 35%;
+}
+
+#mainVisual {
+  width: 100%;
+}
+
+#mainVisual img {
+  width: 100%;
+  display: block;
+}
+
+#nav-drawer {
+  width: 100%;
+  position: absolute;
+}
+
+.navButton {
+  position: absolute;
+  top: 1.3rem;
+  right: 2rem;
+
+}
+
+.navButton a {
+  color: #666666;
+  font-size: 1.35rem;
+}
+
+nav {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  width: 30%;
+  background-color: rgba(255,255,255,.7);
+  list-style: none;
+}
+
+.menu li {
+  height: 3.3rem;
+  border-bottom: solid 1px #AAA;
+}
+
+.menu a {
+  display: block;
+  padding: 0.95rem;
+  text-align: center;
+  color: #666666;
+}
+
+.menu a:hover {
+  background-color: #FFFFFF;
+}
+
+
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  padding: 1rem;
+  padding-left: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  background-color: #FFFFFFF;
+}
+
+#aisatu{
+	margin-bottom: 3rem;
+}
+
+h2{
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	font-size: 20px;
+}
+
+p{
+	line-height: 3rem;
+	margin-top: 2rem;
+	font-size: 12px;
+}
+
+hr{
+	border-top: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
+}
+
+#adomin{
+	width: 100%;
+	height:auto;
+	position: relative;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+}
+
+#adomin img{
+  width: 100%;
+  display: block;
+}
+
+#sakuhin{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+#sakuhin img{
+	width: 70%;
+
+}
+
+#kisekae{
+	width: 100%;
+	height: auto;
+}
+
+#kisekae img{
+	width: 100%;
+}
+
+#btn{
+	width: 100%;
+	height: auto;
+	margin-bottom: 3rem;
+}
+
+#btn img{
+	width: 50%;
+	margin-top: 3rem;
+}
+
+#btn img:hover{
+	background-color: #D7D7D7;
+}
+
+h3{
+	font-size: 15px;
+	margin-bottom: 2rem;
+}
+
+#pic{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#pic li{
+  width: 45%;
+  margin: 1.5vw auto;
+}
+
+#pic img {
+  width: 100%;
+  padding-bottom: 0.5rem;
+}
+
+#pic p{
+  padding-left: 2.1rem;
+  padding-right:1.8rem;
+}
+
+aside {
+  padding: 2rem;
+  text-align: left;
+  font-size: 0.85rem;
+  background-color: #FFFFFF;
+}
+article h1,
+article p,
+aside h1,
+aside p {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #FFF;
+  color:#666666;
+}
+
+/*-------------------------------
+      LAYOUT PC (OverWrite)
+--------------------------------*/
+
+@media only screen and (min-width: 768px) {
+
+  header {
+    height: 4rem;
+  }
+  header h1 {
+    top: 0.5rem;
+    left: 0rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .logo{
+    width: 6%;
+  }
+
+  .top{
+    width: 100%;
+  }
+
+  #nav-drawer {
+    width: 100%;
+    position: absolute;
+  }
+
+
+  #nav-open {
+    display:none;
+  }
+
+
+  main {
+    flex-direction: column;
+  }
+  article {
+    flex: 3;
+    padding: 3rem;
+    font-size: 1rem;
+  }
+
+
+  #pic img{
+    width: 35%;
+    float: left;
+    padding-left: 4.2rem;
+    padding-right:3rem;
+    padding-top:3rem;
+    padding-bottom: 3rem;
+  }
+	
+	h2{
+		font-size: 30px;
+		margin-top: 5rem;
+	}
+	
+	p{
+		font-size: 15px;
+	}
+	
+	
+	#sakuhin{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 7rem;
+	}
+
+    #sakuhin img{
+	width: 70%;
+
+}
+
+	#kisekae{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+	
+	#kisekae img{
+		width: 70%;
+		text-align: center;
+	}
+	
+	#btn{
+	width: 100%;
+	height: auto;
+	margin-bottom: 3rem;
+}
+
+#btn img{
+	width: 30%;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-top: 3rem;
+}
+
+#btn img:hover{
+	background-color: #D7D7D7;
+}
+	
+	hr{
+		margin-bottom: 5rem;
+	}
+
+
+  aside {
+    flex: 1;
+    padding: 3rem;
+    font-size: 1rem;
+  }
+
+  aside h1,
+  aside p{
+  padding-left: 3rem;
+}
+}
+
+
