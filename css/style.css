@@ -113,6 +113,13 @@ article {
 	margin-bottom: 3rem;
 }
 
+iframe{
+	width: 80%;
+	height: auto;
+	position: relative;
+	margin-top: 5rem;
+}
+
 h2{
 	margin-top: 3rem;
 	margin-bottom: 2rem;
@@ -148,17 +155,11 @@ hr{
 	height: auto;
 	text-align: center;
 	margin-bottom: 5rem;
-	
 }
 
 #sakuhin img{
 	width: 70%;
 
-}
-
-#move{
-	widrh:100%;
-	heigth:auto;
 }
 
 #kisekae{
@@ -283,7 +284,14 @@ footer {
     font-size: 1rem;
   }
 
-
+  iframe{
+	width: 70%;
+    height: 315px;
+	position: relative;
+	margin-top: 5rem;
+}
+	
+	
   #pic img{
     width: 35%;
     float: left;
