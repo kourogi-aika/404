@@ -127,7 +127,7 @@ h2{
 }
 
 p{
-	line-height: 1rem;
+	line-height: 1.5rem;
 	margin-top: 2rem;
 	font-size: 5px;
 }
@@ -291,6 +291,8 @@ footer {
 	margin-top: 5rem;
 }
 	
+　
+	
 	
   #pic img{
     width: 35%;
@@ -307,7 +309,9 @@ footer {
 	}
 	
 	p{
-		font-size: 15px;
+		line-height: 3rem;
+	        margin-top: 2rem;
+		font-size: 10px;
 	}
 	
 	
