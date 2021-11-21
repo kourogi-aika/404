@@ -123,13 +123,13 @@ iframe{
 h2{
 	margin-top: 3rem;
 	margin-bottom: 2rem;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 p{
 	line-height: 1.5rem;
-	margin-top: 2rem;
-	font-size: 10px;
+	margin-top: 1rem;
+	font-size: 7px;
 }
 
 hr{
@@ -142,7 +142,7 @@ hr{
 	height:auto;
 	position: relative;
 	margin-top: 2rem;
-	margin-bottom: 5rem;
+	margin-bottom: 3rem;
 }
 
 #adomin img{
@@ -154,7 +154,7 @@ hr{
 	width: 100%;
 	height: auto;
 	text-align: center;
-	margin-bottom: 5rem;
+	margin-bottom: 3rem;
 }
 
 #sakuhin img{
@@ -174,12 +174,12 @@ hr{
 #btn{
 	width: 100%;
 	height: auto;
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 }
 
 #btn img{
 	width: 50%;
-	margin-top: 3rem;
+	margin-top: 1rem;
 }
 
 #btn img:hover{
@@ -228,7 +228,6 @@ article h1,
 article p,
 aside h1,
 aside p {
-  padding-left: 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -291,8 +290,6 @@ footer {
 	margin-top: 5rem;
 }
 	
-　
-	
 	
   #pic img{
     width: 35%;
@@ -305,13 +302,13 @@ footer {
 	
 	h2{
 		font-size: 30px;
-		margin-top: 5rem;
+		margin-top: 3rem;
 	}
 	
 	p{
 		line-height: 3rem;
-	        margin-top: 2rem;
-		font-size: 10px;
+	    margin-top: 1rem;
+	     font-size: 15px;
 	}
 	
 	
